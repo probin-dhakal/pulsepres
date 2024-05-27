@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulsePress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav_bar">
+            <div class="logo">
+                <a href="#">PulsePress</a>
+            </div>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Climate</a></li>
+                    <li><a href="#">Health</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="e.g. Science" aria-label="Search">
+                <button type="submit">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="news">
+            <article class="news_card">
+                <div class="news_img">
+                    <img src="cloud.png" alt="News image 1">
+                </div>
+                <div class="news_content">
+                    <h2 class="title">Title</h2>
+                    <p class="news_desc">News Description</p>
+                    <a href="#" class="read_more">Read More</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="news_category">
+            <div class="cat_links_head">
+                <p>Categories</p>
+                <ul>
+                    <li><a href="#" id="science" onclick="onNavClick('ipl')">Science</a></li>
+                    <li><a href="#" id="technology" onclick="onNavClick('ipl')">Technology</a></li>
+                    <li><a href="#" id="politics" onclick="onNavClick('ipl')">Politics</a></li>
+                    <li><a href="#" id="sports" onclick="onNavClick('sports')">Sports</a></li>
+                    <li><a href="#" id="climate" onclick="onNavClick('ipl')">Climate</a></li>
+                    <li><a href="#" id="health" onclick="onNavClick('ipl')">Health</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact_details">
+            <div class="contact">
+                <p>Contact Us</p>
+                <div>Phone No. - <span>6003971829</span></div>
+                <div>Email - <span>probindhakal5@gmail.com</span></div>
+                <div>Address - <span>Assam,India</span></div>
+            </div>
+        
+            <div class="copyrights">
+                Copyrights &copy; 2024 Probin
+            </div>
+        </div>
+
+        <div class="newsletter">
+            <p>Subscribe to Join</p>
+            <div class="email">
+                <input type="email" placeholder="Enter Your Email Here" id="subscribe">
+                <button>Join</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
